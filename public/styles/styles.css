@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.navbar-icons-container img {
+  width: 1rem;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+/*# sourceMappingURL=styles.css.map */

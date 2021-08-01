@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AEAA,AAEE,uBAFqB,CAErB,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;CACZ;;AFDH,AAAA,IAAI,CAAC;EACH,WAAW,ECJA,YAAY,EAAE,UAAU,CDIV,UAAU;CACpC",
     "sources": [
-        "styles.scss"
+        "styles.scss",
+        "_fonts.scss",
+        "partials/_navbar.scss"
     ],
     "names": [],
     "file": "styles.css"
