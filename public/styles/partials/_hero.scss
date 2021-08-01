@@ -3,13 +3,14 @@
   justify-content: center;
   margin-left: 13rem;
 
+
 }
 
 .hero-img {
 
 
   img {
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -29,13 +30,13 @@
 
   p {
     margin-bottom: 1.5rem;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 100;
   }
 }
 
 .hero-button {
-  padding: 0.8rem 2rem;
+  padding: 0.9rem 2rem;
   background: $mainColor;
   width: fit-content;
   height: fit-content;
@@ -43,6 +44,8 @@
   border-radius: 5px;
   font-weight: 700;
   transition: color .3s ease;
+
+  align-self: end;
 
   &:hover {
     color: $onHover;
