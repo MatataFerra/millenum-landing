@@ -2,19 +2,21 @@ import React from 'react'
 
 export const NavBar = () => {
   return (
-    <div>
-      <div>
+    <div className="navbar-container">
+      <div className="navbar-logo-container">
         <img src="../assets/logo.png" alt="logo" />
       </div>
-      <div>
+      <div className="navbar-options-container">
         <ul>
           <li>Home</li>
-          <li>Aboute</li>
+          <li>About</li>
           <li>Service</li>
           <li>Works</li>
           <li>News</li>
           <li>Contact</li>
-          <li>Get a Quote</li>
+          <div className="navbar-options-last pointer">
+            <li>Get A Quote</li>
+          </div>
         </ul>
       </div>
       <div className="navbar-icons-container">

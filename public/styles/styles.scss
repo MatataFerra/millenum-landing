@@ -1,5 +1,14 @@
+@import './commons';
 @import './fonts';
 @import './partials/navbar';
+@import './partials/home';
+@import './partials/hero';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: $fontFamily !important;

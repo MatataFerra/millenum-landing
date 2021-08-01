@@ -1,11 +1,12 @@
 import React from 'react'
+import { Hero } from './Hero'
 import { NavBar } from './NavBar'
 
 export const HomeScreen = () => {
   return (
-    <div>
+    <div className="home-container">
       <NavBar />
-      <h1>Home Screen</h1>
+      <Hero />
       
     </div>
   )
