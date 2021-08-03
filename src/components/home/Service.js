@@ -3,18 +3,20 @@ import { ServiceCard } from './serviceComponents/ServiceCard'
 
 export const Service = () => {
   return (
-    <div className="container">
-      <div>
-        <p>What we Do</p>
-        <h2>Service to solve all kinds of business problem</h2>
+    <div className="container service-container">
+      <div className="service-title-container">
+        <div className="service-flex-item">
+          <h2>What we Do</h2>
+          <p>Service to solve all kinds of business problem</p>
+        </div>
       </div>
       <div className="service-container-card">
-        <ServiceCard />
-        <ServiceCard order={'2'}/>
-        <ServiceCard order={'3'}/>
-        <ServiceCard order={'4'}/>
-        <ServiceCard order={'5'}/>
-        <ServiceCard order={'6'} />
+        <ServiceCard icon={'squares'} title={'Business Automation'}/>
+        <ServiceCard order={'2'} icon={'shopping-cart'} title={'Ecommerce Support'}/>
+        <ServiceCard order={'3'} icon={'video-camera'} title={'Video Production'}/>
+        <ServiceCard order={'4'} icon={'headphones'} title={'Realtime Support'}/>
+        <ServiceCard order={'5'} icon={'placeholder'} title={'Location Marking'}/>
+        <ServiceCard order={'6'} icon={'upload'} title={'File Upload Protocol'}/>
       </div>
     </div>
   )
