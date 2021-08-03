@@ -159,11 +159,11 @@
   background: #9c1fc1;
 }
 
-.intro-container {
-  background-image: url("../../assets/introbackground.png");
-  background-position: center;
+.content-container {
+  background-image: url("../../assets/intro-about-service.png");
   background-size: cover;
-  height: 100vh;
+  height: auto;
+  margin-top: 1rem;
 }
 
 .intro-text {
@@ -252,6 +252,213 @@
 .card-description {
   font-weight: 300;
   font-size: 0.8rem;
+}
+
+.about-container {
+  position: relative;
+}
+
+.about-backgound-img {
+  position: absolute;
+  left: 80%;
+  width: 1.2rem;
+  -webkit-filter: opacity(0.5);
+          filter: opacity(0.5);
+}
+
+.about-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 13rem;
+  margin-top: 4rem;
+  height: 30rem;
+}
+
+.about-img-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 35%;
+      grid-template-columns: 35%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  gap: 0.5rem;
+}
+
+.about-img-clock {
+  background-image: url("../../assets/about/pexels-photo-714701.png");
+  -webkit-clip-path: polygon(0 0, 100% 0, 68% 100%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 68% 100%, 0 100%);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  border-radius: 15px;
+  width: 300px;
+  height: 290px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 6;
+  grid-row: 1 / 7;
+}
+
+.about-img-people {
+  background-image: url("../../assets/about/pexels-photo-1438072.png");
+  -webkit-clip-path: polygon(32% 0, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(32% 0, 100% 0, 100% 100%, 0 100%);
+  background-repeat: no-repeat;
+  background-position: unset;
+  background-size: cover;
+  border-radius: 15px;
+  width: 300px;
+  height: 290px;
+  margin-top: 1rem;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 7;
+  grid-row: 3 / 10;
+}
+
+.about-img-asset {
+  z-index: 2;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  grid-row: 7 / 8;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  margin: 2rem 1rem 0 0;
+}
+
+.about-text-container {
+  width: 35%;
+  margin-right: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-text-container h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.about-text-container p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.about-text-container article {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+.service-container-card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (20%)[3];
+      grid-template-columns: repeat(3, 20%);
+  -ms-grid-rows: (2%)[16];
+      grid-template-rows: repeat(16, 2%);
+  gap: 0.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.serviceCard-container {
+  width: 15rem;
+  height: 19rem;
+  background: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.8rem;
+  border-radius: 17px;
+}
+
+.serviceCard-order--2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+.serviceCard-order--3 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3 / 4;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+}
+
+.serviceCard-order--4 {
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 1;
+  grid-row: 8 / 9;
+}
+
+.serviceCard-order--5 {
+  -ms-grid-row: 9;
+  -ms-grid-row-span: 1;
+  grid-row: 9 / 10;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+.serviceCard-order--6 {
+  -ms-grid-row: 10;
+  -ms-grid-row-span: 1;
+  grid-row: 10 / 11;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+}
+
+.serviceCard-icon {
+  width: 3rem;
+  margin-bottom: 2rem;
+}
+
+.serviceCard-title {
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.serviceCard-description {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.serviceCard-arrow {
+  width: 2rem;
 }
 
 * {

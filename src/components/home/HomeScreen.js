@@ -1,6 +1,6 @@
 import React from 'react'
+import { Content } from './Content'
 import { Hero } from './Hero'
-import { Intro } from './Intro'
 import { NavBar } from './NavBar'
 
 export const HomeScreen = () => {
@@ -10,8 +10,7 @@ export const HomeScreen = () => {
       <NavBar />
       <Hero />
     </div>
-      <Intro />
-      
+      <Content />
     </>
   )
 }
