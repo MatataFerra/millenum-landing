@@ -502,6 +502,16 @@
   height: 100%;
 }
 
+.portfolio-job-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.portfolio-job-container img {
+  width: 20rem;
+}
+
 * {
   margin: 0;
   padding: 0;
