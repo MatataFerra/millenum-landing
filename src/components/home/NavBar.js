@@ -20,8 +20,8 @@ export const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-icons-container">
-        <img src="../assets/icons/facebook.svg" alt="facebook" />
-        <img src="../assets/icons/twitter.svg" alt="twitter" />
+        <img src="./assets/icons/facebook.svg" alt="facebook" />
+        <img src="./assets/icons/twitter.svg" alt="twitter" />
         <img src="./assets/icons/youtube.svg" alt="youtube" />
         <img src="./assets/icons/instagram.svg" alt="instagram" />
       </div>

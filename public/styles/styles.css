@@ -363,10 +363,6 @@
   margin-bottom: 2rem;
 }
 
-.service-container {
-  height: 60rem;
-}
-
 .service-container-card {
   display: -ms-grid;
   display: grid;
