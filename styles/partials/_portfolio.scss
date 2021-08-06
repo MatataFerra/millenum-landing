@@ -1,0 +1,17 @@
+.portfolio-container {
+  height: 100%;
+
+}
+
+.portfolio-text {
+  @extend .intro-text;
+}
+
+.portfolio-job-container {
+  display: flex;
+
+
+  img {
+    width: 20rem;
+  }
+}

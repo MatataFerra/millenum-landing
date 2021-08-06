@@ -1,0 +1,54 @@
+.hero-main {
+  display: flex;
+  justify-content: center;
+  margin-left: 13rem;
+
+
+}
+
+.hero-img {
+
+
+  img {
+    width: 95%;
+  }
+}
+
+.hero-text {
+
+  margin-top: 3rem;
+  width: 75%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 20% 15%;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 3.5rem;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 100;
+  }
+}
+
+.hero-button {
+  padding: 0.9rem 2rem;
+  background: $mainColor;
+  width: fit-content;
+  height: fit-content;
+  color: #FFF;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: color .3s ease;
+
+  align-self: end;
+
+  &:hover {
+    color: $onHover;
+    background: darken($color: $mainColor, $amount: 15);
+  }
+}

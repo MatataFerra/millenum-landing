@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/millenum-landing/static/js/main.f1307a29.chunk.js",
+    "main.js.map": "/millenum-landing/static/js/main.f1307a29.chunk.js.map",
+    "runtime-main.js": "/millenum-landing/static/js/runtime-main.93cf3595.js",
+    "runtime-main.js.map": "/millenum-landing/static/js/runtime-main.93cf3595.js.map",
+    "static/js/2.46e1710f.chunk.js": "/millenum-landing/static/js/2.46e1710f.chunk.js",
+    "static/js/2.46e1710f.chunk.js.map": "/millenum-landing/static/js/2.46e1710f.chunk.js.map",
+    "index.html": "/millenum-landing/index.html",
+    "static/js/2.46e1710f.chunk.js.LICENSE.txt": "/millenum-landing/static/js/2.46e1710f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.93cf3595.js",
+    "static/js/2.46e1710f.chunk.js",
+    "static/js/main.f1307a29.chunk.js"
+  ]
+}
